@@ -20,7 +20,7 @@
 </head>
 <body>
     <p>Data extracted from a JSON and converted to an HTML table.</p>
-    <div id="showData"></div>
+    <div id="tools"></div>
 </body>
 
 <script>
@@ -67,7 +67,7 @@
             }
 
             // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
-            var divContainer = document.getElementById("showData");
+            var divContainer = document.getElementById("tools");
             divContainer.innerHTML = "";
             divContainer.appendChild(table);
         });
