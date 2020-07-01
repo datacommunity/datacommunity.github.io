@@ -68,7 +68,7 @@
                     if ($content.substring(0, 7) == "http://" || $content.substring(0, 8) == "https://") { 
                         $content = '<a href="' + $content + '" target="_blank">Link</a>';
                     };
-                    tabCell.innerHTML = arrItems[i][col[j]];
+                    tabCell.innerHTML = $content;
                 }
             }
 
