@@ -20,6 +20,8 @@
 
             // CREATE DYNAMIC TABLE.
             var table = document.createElement("table");
+            table.className = "table table-hover";
+
 
             // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
 
@@ -29,6 +31,7 @@
                 var th = document.createElement("th");      // TABLE HEADER.
                 th.innerHTML = col[i];
                 tr.appendChild(th);
+                tr.className = "table-primary";
             }
 
             // ADD JSON DATA TO THE TABLE AS ROWS.
