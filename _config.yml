@@ -4,6 +4,8 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: custom
 baseurl: /
 url: "https://datacommunity.github.io"
+plugins:
+  - jekyll-redirect-from
 
 # Footer content 
 # appears at the bottom of every page's main content
