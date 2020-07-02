@@ -75,5 +75,7 @@
             var divContainer = document.getElementsByClassName("data")[0];
             divContainer.innerHTML = "";
             divContainer.appendChild(table);
+		
+	    var dataTable = new ResponsiveTable('#responsive-table', 'list', '50em');
         });
     });
