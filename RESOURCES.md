@@ -9,7 +9,9 @@ permalink: /resources/
 {::options parse_block_html="true" /}
 
   <a href="https://github.com/datacommunity/{{ page.repository }}/edit/master/data.json" target="_blank">Edit on GitHub</a>
-  <i>JavaScript is required to view this content</i>
+      <noscript>
+         <i>JavaScript is required to view this content</i>
+      </noscript>
   
   <div class="data" id="{{ page.repository }}"></div>
 
