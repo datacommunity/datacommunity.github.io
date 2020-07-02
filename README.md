@@ -39,4 +39,4 @@ The list of community events is currently available at [https://datacommunity.ev
 
 ---
 
-[View on GitHub](https://github.com/datacommunity/datacommunity.github.io)
+[View on GitHub](https://github.com/datacommunity/datacommunity.github.io){: .btn }
