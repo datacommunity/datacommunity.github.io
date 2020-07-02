@@ -28,6 +28,9 @@ For example, the community tools list is stored in the `data.json` tools reposit
 
 JSON is very universal and can used to build HTML content as well as consumed by PowerShell and other APIs. We are essentially using it a data storage for this website.
 
+# How to contribute
+As mentioned above, the web ui is in the separate repository. If you want to submit new tool, head over to the tools repository (https://github.com/datacommunity/tools) and edit `data.json` 
+
 # Jekyll
 The portal is built using GitHub pages and Jekyll template. Any changes to it, adding or removing pages will trigger GitHub Action and the website will be rebuilt automatically. There is no need to install Jekyll on local computer.
 
