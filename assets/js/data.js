@@ -26,14 +26,17 @@
 
 
             // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
-
+           
             var tr = table.insertRow(-1);                   // TABLE ROW.
 
             for (var i = 0; i < col.length; i++) {
+            
                 var th = document.createElement("th");      // TABLE HEADER.
-                th.innerHTML = col[i];
-                tr.appendChild(th);
-                tr.className = "table-primary";
+                if (col[i] != "Url") {
+                  th.innerHTML = col[i];
+                  tr.appendChild(th);
+                  tr.className = "table-primary";
+                 	}
             }
 
             // ADD JSON DATA TO THE TABLE AS ROWS.
@@ -42,13 +45,17 @@
                 tr = table.insertRow(-1);
 
                 for (var j = 0; j < col.length; j++) {
-                    var tabCell = tr.insertCell(-1);
-                    var content = arrItems[i][col[j]];
+                    var content = "";
+                    var tabCell = "";
                     
-                    // CREATE LINK
-                    if (content.substring(0, 7) == "http://" || content.substring(0, 8) == "https://") { 
-                        content = '<a href="' + content + '" target="_blank">Link</a>';
-                    };
+                    if (arrItems[i][col[j]] !== arrItems[i]["Url"]) {
+                    		content = arrItems[i][col[j]];
+												tabCell = tr.insertCell(-1);
+                        
+                        if (content == arrItems[i]["Name"]) {
+                        	content = '<a href="' + arrItems[i]["Url"] + '" target="_blank">' + arrItems[i]["Name"] + '</a>';              
+                      }
+                     }
                     tabCell.innerHTML = content;
                 }
             }
