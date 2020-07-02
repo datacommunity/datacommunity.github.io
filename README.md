@@ -32,4 +32,4 @@ JSON is very universal and can used to build HTML content as well as consumed by
 The portal is built using GitHub pages and Jekyll template. Any changes to it, adding or removing pages will trigger GitHub Action and the website will be rebuilt automatically. There is no need to install Jekyll on local computer.
 
 ## Community Events
-The list of community events is currently available at https://datacommunity.events
+The list of community events is currently available at [https://datacommunity.events](https://datacommunity.events)
