@@ -8,7 +8,7 @@ permalink: /resources/
 
 {::options parse_block_html="true" /}
 
-  <a href="https://github.com/datacommunity/{{ page.repository }}/edit/master/data.json">Edit on GitHub</a>
+  <a href="https://github.com/datacommunity/{{ page.repository }}/edit/master/data.json" target="_blank">Edit on GitHub</a>
   
   <div class="data" id="{{ page.repository }}"></div>
 
