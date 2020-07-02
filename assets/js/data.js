@@ -48,10 +48,12 @@
                     var content = "";
                     var tabCell = "";
                     
+		    //SKIP URL COLUMN
                     if (arrItems[i][col[j]] !== arrItems[i]["Url"]) {
-                    		content = arrItems[i][col[j]];
-												tabCell = tr.insertCell(-1);
+			content = arrItems[i][col[j]];
+			tabCell = tr.insertCell(-1);
                         
+			//USE URL FOR THE NAME COLUMN
                         if (content == arrItems[i]["Name"]) {
                         	content = '<a href="' + arrItems[i]["Url"] + '" target="_blank">' + arrItems[i]["Name"] + '</a>';              
                       }
