@@ -28,10 +28,20 @@
             // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
            
             var tr = table.insertRow(-1);                   // TABLE ROW.
+            var pUrl = 0;
+            var pName = 0;
 
             for (var i = 0; i < col.length; i++) {
             
                 var th = document.createElement("th");      // TABLE HEADER.
+                if (col[i] == "Url") {
+                  pUrl = i;
+                }
+
+                if (col[i] == "Name") {
+                  pName = i;
+                }
+
                 if (col[i] != "Url") {
                   th.innerHTML = col[i];
                   tr.appendChild(th);
@@ -48,17 +58,15 @@
                     var content = "";
                     var tabCell = "";
                     
-		    //SKIP URL COLUMN
-                    if (arrItems[i][col[j]] !== arrItems[i]["Url"]) {
+                    if (j !== pUrl) {
 			content = arrItems[i][col[j]];
 			tabCell = tr.insertCell(-1);
                         
-			//USE URL FOR THE NAME COLUMN
-                        if (content == arrItems[i]["Name"]) {
+                        if (j == pName) {
                         	content = '<a href="' + arrItems[i]["Url"] + '" target="_blank">' + arrItems[i]["Name"] + '</a>';              
                       }
+			tabCell.innerHTML = content;
                      }
-                    tabCell.innerHTML = content;
                 }
             }
 
