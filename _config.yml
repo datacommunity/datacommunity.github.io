@@ -1,1 +1,4 @@
-theme: jekyll-theme-hacker
+theme: jekyll-theme-slate
+title: Data Commuynity Resources
+description: July 2020
+baseurl: /
