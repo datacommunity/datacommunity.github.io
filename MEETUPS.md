@@ -18,8 +18,10 @@ permalink: /meetups/
   <script src="{{ site.url }}/assets/js/data.js"></script>
   <script src="{{ site.url }}/assets/js/responsive-table.js"></script>
   
-  <script>
-    var dataTable = new ResponsiveTable('#responsive-table', 'list', '50em');
-  </script>
+  <script type="text/javascript">
+    $(window).bind("load", function () {
+      var dataTable = new ResponsiveTable('#responsive-table', 'list', '50em');
+    });
+  </script> 
 
 {::options parse_block_html="false" /}
