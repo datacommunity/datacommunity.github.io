@@ -3,6 +3,7 @@ layout: page
 title: "Home"
 permalink: /
 nav_order: 1
+redirect_from: "/resources/"
 ---
 
 # Welcome to the Data Community Resource portal.
