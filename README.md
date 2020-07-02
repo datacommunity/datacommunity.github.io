@@ -27,3 +27,6 @@ For example, the community tools list is stored in the `data.json` tools reposit
 ```
 
 JSON is very universal and can used to build HTML content as well as consumed by PowerShell and other APIs. We are essentially using it a data storage for this website.
+
+## Community Events
+The list of community events is currently available at https://datacommunity.events
