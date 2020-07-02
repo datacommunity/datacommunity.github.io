@@ -7,6 +7,8 @@
             $.each(data, function (index, value) {
                 arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
             });
+            
+            arrItems.sort(); 
 
             // EXTRACT VALUE FOR TABLE HEADER.
             var col = [];
