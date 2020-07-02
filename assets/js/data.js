@@ -23,6 +23,7 @@
             // CREATE DYNAMIC TABLE.
             var table = document.createElement("table");
             table.className = "table table-hover";
+	    table.setAttribute("id", "responsive-table");
 
 
             // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
