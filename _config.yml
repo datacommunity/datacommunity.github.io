@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate
 title: Data Commuynity Resources
 description: July 2020
+remote_theme: pmarsceill/just-the-docs
 baseurl: /
