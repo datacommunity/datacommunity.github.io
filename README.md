@@ -6,7 +6,7 @@ nav_order: 1
 redirect_from: "/resources/"
 ---
 
-# Welcome to the Data Community Resource portal.
+# Welcome to the Data Community Portal.
 
 This a place for all things data community such as links to blogs, tools, presentation, events and resources. 
 The repositories are maintained by the data community themselves, everyone is permitted and encouraged to submit changes to keep this up to date. 
