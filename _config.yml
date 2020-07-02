@@ -9,7 +9,7 @@ plugins:
 
 # Footer content 
 # appears at the bottom of every page's main content
-footer_content: "Repository maintained by @marcingminski and volunteers. The content of this portal is under GPL-3.0 License license, however linked content will have it's own license."
+footer_content: "Repository maintained by @marcingminski and volunteers. The content of this portal is under GPL-3.0 License license, however linked content will have it's own license. <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fdatacommunity.github.io" alt="Hits">"
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
