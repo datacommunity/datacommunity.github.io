@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Home"
+permalink: /
+---
+
 ## Welcome to the Data Community Resource portal.
 
 This a place for all things data community such as links to blogs, tools, presentation, events and resources. 
