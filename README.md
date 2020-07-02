@@ -33,3 +33,5 @@ The portal is built using GitHub pages and Jekyll template. Any changes to it, a
 
 # Community Events
 The list of community events is currently available at [https://datacommunity.events](https://datacommunity.events)
+
+[https://github.com/datacommunity/datacommunity.github.io](View on GitHub)
