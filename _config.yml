@@ -2,7 +2,8 @@ title: Data Community
 description: July 2020
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
-baseurl: "https://datacommunity.github.io"
+baseurl: /
+url: "https://datacommunity.github.io"
 
 # Footer content 
 # appears at the bottom of every page's main content
