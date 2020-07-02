@@ -1,7 +1,7 @@
 title: Data Community
 description: July 2020
 remote_theme: pmarsceill/just-the-docs
-color_scheme: dark
+color_scheme: custom
 baseurl: /
 url: "https://datacommunity.github.io"
 
