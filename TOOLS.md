@@ -8,7 +8,7 @@ permalink: /tools/
 
 {::options parse_block_html="true" /}
 
-  <a href="https://github.com/datacommunity/{{ page.repository }}/edit/master/data.json" target="_blank">Edit on GitHub</a>
+  [Edit on GitHub](https://github.com/datacommunity/{{ page.repository }}/blob/master/data.json){: .btn }
       <noscript>
          <i>JavaScript is required to view this content</i>
       </noscript>
