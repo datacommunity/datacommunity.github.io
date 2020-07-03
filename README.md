@@ -8,7 +8,7 @@ redirect_from: "/resources/"
 
 # Welcome to the Data Community Portal.
 
-This is a place for all things data community, Microsoft Data Platform entusiasts and professionals. You will find here links to blogs, tools, presentation, events and resources. The repositories are maintained by the data community, everyone is permitted and encouraged to submit changes to keep this up to date. 
+This is a place for all things Data Community - Microsoft Data Platform entusiasts and professionals. You will find here links to blogs, tools, presentation, events and resources. The repositories are maintained by the data community, everyone is permitted and encouraged to submit changes to keep this up to date. 
 
 This page is not affiliated with Microsoft in any way, we just trying to help everyone to have it all in one place. 
 
